@@ -10,9 +10,17 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: black;
 }
+
 
 h1{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color:white;
+}
+
+header p {
+  color: gray;
+  font-family:'Open Sans', sans-serif;
 }
