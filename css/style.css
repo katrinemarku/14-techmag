@@ -76,3 +76,11 @@ img{
   font: 15px;
   font-weight: bold;
 }
+
+footer {
+  color: white;
+  border: solid #00fca6 4px;
+  text-align: center;
+  font-size: 15px;
+  font-family:'Open Sans', sans-serif;
+}
