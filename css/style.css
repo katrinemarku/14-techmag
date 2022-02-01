@@ -62,8 +62,17 @@ figure p {
 
 figure {
   background-color: white;
+  padding-bottom: 60x;
 }
 
 img{
   box-sizing: border-box;
+}
+
+.button{
+  background-color:#444444;
+  color:#dddddd;
+  font-family: 'Montserrat', sans-serif;
+  font: 15px;
+  font-weight: bold;
 }
