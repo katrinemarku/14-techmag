@@ -36,6 +36,12 @@ h2{
   font-size: 23px;
 }
 
+figure h2 {
+  color : black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+}
+
 div p {
   color: #0e6848;
   font-family:'Open Sans', sans-serif;
@@ -45,6 +51,15 @@ div p {
 header p {
   color: #aaaaaa;
   font-family:'Open Sans', sans-serif;
-  padding-bottom: 102px;
   font-size: 24px;
+}
+
+figure p {
+  color: black;
+  font-family:'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+figure {
+  background-color: white;
 }
