@@ -17,10 +17,12 @@ header {
   background-image: url(../img/coding.jpg);
   background-size: contain;
   box-sizing: border-box;
+  border : solid white 4px;
 }
 
 div {
   background-color: #00fca6;
+  box-sizing: border-box;
 }
 
 h1{
@@ -58,11 +60,14 @@ figure p {
   color: black;
   font-family:'Open Sans', sans-serif;
   font-size: 24px;
+  
 }
 
 figure {
   background-color: white;
   padding-bottom: 60x;
+    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 img{
@@ -83,4 +88,9 @@ footer {
   text-align: center;
   font-size: 15px;
   font-family:'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
