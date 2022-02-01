@@ -15,19 +15,36 @@ body {
 
 header {
   background-image: url(../img/coding.jpg);
-  background-size: cover;
-  padding-top: 110px;
-  padding-left: 59px;
-  
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: #00fca6;
 }
 
 h1{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color:white;
+  padding-top: 110px;
+}
+
+h2{
+  color: #0e6848;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+}
+
+div p {
+  color: #0e6848;
+  font-family:'Open Sans', sans-serif;
+  font-size: 23px;
 }
 
 header p {
-  color: gray;
+  color: #aaaaaa;
   font-family:'Open Sans', sans-serif;
+  padding-bottom: 102px;
+  font-size: 24px;
 }
