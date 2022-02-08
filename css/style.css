@@ -13,10 +13,13 @@ body {
   background-color: black;
 }
 
+main {
+  color : white;
+}
+
 header {
   background-image: url(../img/coding.jpg);
   background-size: contain;
-  box-sizing: border-box;
   border : solid white 4px;
 }
 
@@ -27,9 +30,10 @@ div {
 
 h1{
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  text-align: left;
   color:white;
-  padding-top: 110px;
+  padding: 56px 96px 25px 29px;
+  font-size: 21px;
 }
 
 h2{
@@ -40,11 +44,26 @@ h2{
   text-align: left;
 }
 
+figcaption{
+  font-size: 10px;
+  font-family:'Open Sans', sans-serif;
+  color: black;
+  text-align:left;
+}
+
+em{
+  color:#23e097;
+  font-family:'Open Sans', sans-serif;
+  font-weight:100;
+  font-size: 20px;
+}
+
 figure h2 {
   color : black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
-  box-sizing: border-box;
+  font-size: 17px;
+ 
+  text-align: left;
 }
 
 div p {
@@ -57,22 +76,20 @@ div p {
 header p {
   color: #aaaaaa;
   font-family:'Open Sans', sans-serif;
-  font-size: 24px;
-  box-sizing: border-box;
+  font-size: 13px;
+  padding : 0px 80px 51px 29px;
 }
 
 figure p {
   color: black;
   font-family:'Open Sans', sans-serif;
-  font-size: 24px;
-  box-sizing: border-box;
+  font-size: 13px;
+  padding : 0px 37px 0px 30px;
   
 }
 
 figure {
   background-color: white;
-  padding: 60px;
-  box-sizing: border-box;
   
 }
 
@@ -84,17 +101,19 @@ img{
   background-color:#444444;
   color:#dddddd;
   font-family: 'Montserrat', sans-serif;
-  font: 15px;
+  font-size: 8px;
   font-weight: bold;
+  padding : 6px;
+  margin-left: 30px;
 }
 
 footer {
   color: white;
-  border: solid #00fca6 4px;
+  border: solid #00fca6 2px;
+  font-size: 8px;
   text-align: center;
-  font-size: 15px;
   font-family:'Open Sans', sans-serif;
-  box-sizing: border-box;
+  padding :2px 114px 2px 114px;
 }
 
 a {
