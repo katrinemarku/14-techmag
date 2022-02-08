@@ -22,7 +22,7 @@ header {
 
 div {
   background-color: #00fca6;
-  box-sizing: border-box;
+  margin : 20px 0px 20px 0px;
 }
 
 h1{
@@ -35,39 +35,45 @@ h1{
 h2{
   color: #0e6848;
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
+  font-size: 17px;
+  padding : 32px 29px 0px 29px;
+  text-align: left;
 }
 
 figure h2 {
   color : black;
   font-family: 'Montserrat', sans-serif;
   font-size: 23px;
+  box-sizing: border-box;
 }
 
 div p {
   color: #0e6848;
   font-family:'Open Sans', sans-serif;
-  font-size: 23px;
+  font-size: 16px;
+  padding: 0px 112px 48px 30px;
 }
 
 header p {
   color: #aaaaaa;
   font-family:'Open Sans', sans-serif;
   font-size: 24px;
+  box-sizing: border-box;
 }
 
 figure p {
   color: black;
   font-family:'Open Sans', sans-serif;
   font-size: 24px;
+  box-sizing: border-box;
   
 }
 
 figure {
   background-color: white;
-  padding-bottom: 60x;
-    box-sizing: border-box;
-    box-sizing: border-box;
+  padding: 60px;
+  box-sizing: border-box;
+  
 }
 
 img{
