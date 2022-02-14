@@ -11,111 +11,102 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400px;
 }
 
 header {
-  margin-top: 20px;
+  margin: 20px 0px;
+  padding: 0px 30px;
   background-image: url(../img/coding.jpg);
-  background-size: contain;
   border : solid white 2px;
 }
 
-figure {
-  background-color: white;
-  color : white;
-  max-width: 320px;
-  margin: auto;
+header h1 em {
+  font-weight: 100;
+  color:#2afca6;
+  line-height: 22px;
 }
 
-div {
-  background-color: #00fca6;
-  margin : 20px 0px 20px 0px;
+main {
+  margin: 20px 0px 0px;
 }
 
-footer {
-  color: white;
-  border: solid #00fca6 2px;
-  font-size: 8px;
-  text-align: center;
-  font-family:'Open Sans', sans-serif;
-  padding :2px 114px 2px 114px;
-  margin-top: 20px;
+.presentation {
+  background-color: #2afca6;
+  padding: 16px 30px;
 }
 
-h1{
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  color:white;
-  padding: 0px 96px 0px 29px;
-  font-size: 21px;
-}
-
-h2{
-  color: #0e6848;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
-  padding : 32px 29px 0px 29px;
-  text-align: left;
-}
-
-figcaption{
-  font-size: 10px;
-  font-family:'Open Sans', sans-serif;
-  color: black;
-  text-align:left;
-}
-
-em{
-  color:#23e097;
-  font-family:'Open Sans', sans-serif;
-  font-weight:100;
-  font-size: 21px;
-}
-
-figure h2 {
-  color : black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
- 
-  text-align: left;
-}
-
-div p {
-  color: #0e6848;
-  font-family:'Open Sans', sans-serif;
+.presentation h2 {
+  font-family: 'montserrat', sans-serif;
   font-size: 16px;
-  padding: 0px 45px 48px 29px;
+  font-weight: 800;
 }
 
-header p {
-  color: #aaaaaa;
-  font-family:'Open Sans', sans-serif;
-  font-size: 13px;
-  padding : 0px 80px 50px 29px;
+.presentation p {
+  margin: 20px 0px 31px;
+  line-height: 22px;
 }
 
-figure p {
+article {
+background-color: white;
+padding: 15px 30px;
+margin-top: 20px;
+}
+
+article h1 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.article-meta {
+  font-size: 12px;
+  margin-top: 20px;
+  color : #a0a0a0;
+}
+
+.date {
   color: black;
-  font-family:'Open Sans', sans-serif;
-  font-size: 13px;
-  padding : 0px 30px 0px 30px; 
 }
 
-img{
-  max-width: 100%;
-  height: 100%;
+.auteur {
+  color: #2afca6;
 }
 
-.button{
-  background-color:#444444;
-  color:#dddddd;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 8px;
-  font-weight: bold;
-  padding : 6px;
-  margin-left: 30px;
+.article-text {
+  font-size: 16px;
+  line-height: 22px;
 }
 
-a {
+figure {
+ margin: 0px 0px 32px;
+ box-shadow: 2px 2px 2px 2px gray;
+}
+
+img {
+  width: 260px;
+}
+
+figcaption {
+  font-size: 12px;
+  margin: 5px 10px;
+  height: 40px;
+}
+
+button {
+  background-color: black;
+  margin: 0px 0px 16px;
+  border-style: none;
+  height: 23px;
+  width: 90px;
+}
+
+button a{
+  color: white;
+  margin: 5px;
   text-decoration: none;
+  font-size: 10px;
+  font-weight: 800;
+  font-family: 'montserrat', sans-serif;
 }
