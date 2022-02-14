@@ -102,11 +102,24 @@ button {
   width: 90px;
 }
 
-button a{
+button a {
   color: white;
   margin: 5px;
   text-decoration: none;
   font-size: 10px;
   font-weight: 800;
   font-family: 'montserrat', sans-serif;
+}
+
+footer {
+  border: 2px solid #2afca6;
+  height: 45px;
+  margin-top: 20px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 15px;
 }
