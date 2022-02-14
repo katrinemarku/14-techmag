@@ -123,3 +123,11 @@ footer p {
   font-size: 10px;
   margin-top: 15px;
 }
+
+.article-figcaption {
+  height: 20px;
+}
+
+.article-page {
+  padding-top: 30px
+}
