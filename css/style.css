@@ -78,7 +78,7 @@ article h1 {
   color: black;
 }
 
-.auteur {
+.author {
   color: #2afca6;
 }
 
@@ -89,7 +89,7 @@ article h1 {
 
 figure {
  margin: 0px 0px 32px;
- box-shadow: 2px 2px 2px 2px gray;
+ box-shadow: 0px 0px 10px 0px #ccc;
 }
 
 img {
@@ -98,12 +98,11 @@ img {
 
 figcaption {
   font-size: 12px;
-  margin: 5px 10px;
-  height: 40px;
+  padding: 5px 10px;
 }
 
 button {
-  background-color: black;
+  background-color: #444444;
   margin: 0px 0px 16px;
   border-style: none;
   height: 23px;
@@ -123,6 +122,7 @@ footer {
   border: 2px solid #2afca6;
   height: 45px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer p {
@@ -130,12 +130,17 @@ footer p {
   text-align: center;
   font-size: 10px;
   margin-top: 15px;
-}
-
-.article-figcaption {
-  height: 20px;
+  margin-bottom: 15px;
 }
 
 .article-page {
   padding-top: 30px
+}
+
+.article-button {
+  background-color: #444444;
+  margin: 0px 0px 16px;
+  border-style: none;
+  height: 23px;
+  width: 130px;
 }
