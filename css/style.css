@@ -18,7 +18,8 @@ body {
 header {
   margin: 20px 0px;
   padding: 0px 30px;
-  background-image: url(../img/coding.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url(../img/coding.jpg);
   border : solid white 2px;
 }
 
@@ -107,6 +108,7 @@ button {
   border-style: none;
   height: 23px;
   width: 90px;
+  
 }
 
 button a {
@@ -137,8 +139,7 @@ footer p {
   background-color: #444444;
   margin: 0px 0px 16px;
   border-style: none;
-  height: 23px;
-  width: 130px;
+  width: 120px;
   box-sizing: content-box;
 }
 
