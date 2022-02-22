@@ -31,7 +31,7 @@ header h1 {
 }
 
 header h1 em {
-  font-weight: 100;
+  font-weight: 100pxs;
   color:#2afca6;
   line-height: 22px;
 }
@@ -133,14 +133,13 @@ footer p {
   margin-bottom: 15px;
 }
 
-.article-page {
-  padding-top: 30px
-}
-
 .article-button {
   background-color: #444444;
   margin: 0px 0px 16px;
   border-style: none;
   height: 23px;
   width: 130px;
+  box-sizing: content-box;
 }
+
+
